@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+	 <title>Pseudo-Classes</title>
+	 
+	 
+	 <style type="text/css">
+	
+	   p:hover{
+	  background- color:blue;
+	  color:red;
+	   }
+	   p:first-child{
+	   color:yellow;
+	   background-color:pink;
+	   }
+	   #div1 p:nth-child(2){
+	   color:red;
+	   background-color:green;
+	   }
+	   #div2 p:last-child{
+	   color:orange;
+	   background-color:yellow;
+	   }
+	   input:enabled{
+	   background-color:hotpink;
+	   }
+	   input:disabled{
+	   background-color:purple;
+	   }
+	   input:focus{
+	   border:8px solid green;
+	   }
+	   input:required{
+	   color:hotpink;
+	   }
+	   input:read-only{
+	   color:#E1FE02;
+	   }
+	   input:checked{
+	   width:5px;
+	   height:2px;
+	   }
+	   input:valid{
+	   background-color:red;
+	   }
+	   input:invalid{
+	   background-color:purple;
+	   }
+	   
+	  </style>
+	</head>
+ 
+<body>
+<h1>Pseudo-Classes</h1>
+<p>first para in first div</p>
+<p>Constructor overloading in Java is a technique of having
+ more than one constructor with different parameter lists.</p>
+
+<div id="div1">
+<p>descendent selector</p>
+<p>second para</p>
+</div><p>descendent selector</p></div>
+<span><p>descendent selector</p></span>
+<span>descendent selector</span>
+</div>
+<div id="div2">
+<p>adjacent selector</p>
+
+<p>descendent selector</p>
+<p>last para in second div</p>
+</div>
+<h1>Register</h1>
+<form>
+<pre>
+<label>Name</label>
+<input type="name" name="name" readonly value="vaishnavi">
+
+<label>Email No</label>
+<input type="email" name="email" required>
+
+<label>Mobile No</label>
+<input type="number" name="mobile" enabled>
+
+<label>gender</label>
+<input type="radio" name="gender" value="female">female
+<input type="radio" name="gender" value="male">male
+<input type="radio" name="gender" value="others">others
+
+<label>Password</label>
+<input type="password" name="password">
+
+<label>submit</label>
+<input type="submit" name="submit">
+</pre>
+
+
+</form>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 200%;
+}
+
+#customers td, #customers th {
+  
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<table id="customers">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Berglunds snabbköp</td>
+    <td>Christina Berglund</td>
+    <td>Sweden</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Königlich Essen</td>
+    <td>Philip Cramer</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+  <tr>
+    <td>North/South</td>
+    <td>Simon Crowther</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Paris spécialités</td>
+    <td>Marie Bertrand</td>
+    <td>France</td>
+  </tr>
+</table>
+
+
+
+</body>
+</html>
