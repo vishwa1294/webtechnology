@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+	 <title>combination selector</title>
+	 
+	 
+	 <style type="text/css">
+	 #div1 p{
+	    color:blue;
+		background-color:pink;
+	   }
+	 #div2+h4{
+	 color:purple;
+		background-color:red;
+	   }
+	   #div~h2{
+	   color:yellow;
+		background-color:green;
+	   }
+	   
+	    a:link{
+	   color:orange;
+	   }
+	   a:hover{
+	   color:blue;
+	   }
+	   
+	   a:active{
+	   color:aqua;
+	   }
+	   a:visited{
+	   color:red;
+	   }
+	  
+	 </style>
+	</head>
+ 
+<body>
+<h1>combination selector</h1>
+<a href="https://x-workz.in/">click here</a>
+<div id="div1">
+<p>descendent selector</p>
+<p>descendent selector</p>
+<p>descendent selector</p>
+<p>descendent selector</p>
+</div><p>descendent selector</p></div>
+<span><p>descendent selector</p></span>
+<span>descendent selector</span>
+</div>
+<div id="div2">
+<p><h4>adjacent selector</h4></p>
+
+<p>descendent selector</p>
+<p>descendent selector</p>
+
+<h4><p>descendent selector</h4>
+<h2>descendent selector</h2></p>
+
+<p>descendent selector</p>
+<p>descendent selector</p>
+
+<h2><p>descendent selector</h2>
+<h5>descendent selector</h5></p>
+</div>
+</body>
+</html>
